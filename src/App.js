@@ -1,9 +1,20 @@
-import React from 'react'
+// write components here 
+//always in every react file is to import react from react 
 
-export const App = () => {
+import React from 'react'
+import Footer from './components/Footer/Footer.js';
+import Links from './components/Links/Links.js';
+import Colors from './components/Colors/Colors.js';
+
+const App = () => {
   return (
-    <div>
-      Find me in src/app.js!
-    </div>
+    <>
+      <Footer />
+      <Colors />
+      <Links /> 
+    </>
   )
 }
+
+export default App;
+

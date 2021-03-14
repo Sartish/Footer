@@ -11,7 +11,7 @@ const App = () => {
     <>
       <Footer />
       <Colors />
-      <Links /> 
+      <Links aboutLink="http://www.google.com"/> 
     </>
   )
 }

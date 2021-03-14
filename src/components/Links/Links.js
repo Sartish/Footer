@@ -1,14 +1,14 @@
 import React from 'react'
 
 
-const Links = () =>{
+const Links = (props) =>{
     return(
         <ul className="link-names">
-            <li>About</li>
-            <li>Careers</li>
-            <li>Pricing</li>
-            <li>Feedback</li>
-            <li>Roadmap</li>
+            <a href={props.aboutLink}><li>About</li></a>
+            <a href={props.aboutLink}><li>Careers</li></a>
+            <a href={props.aboutLink}><li>Pricing</li></a>
+            <a href={props.aboutLink}><li>Feedback</li></a>
+            <a href={props.aboutLink}><li>Roadmap</li></a>
         </ul>
     )
 }

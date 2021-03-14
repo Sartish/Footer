@@ -1,9 +1,10 @@
 .link-names{
 position: absolute;
+flex-direction: column;
 width: 492px;
 height: 247px;
-left: 878px;
-top: 689px;
+left: 1200px;
+top: 900px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -11,8 +12,11 @@ font-weight: normal;
 font-size: 30px;
 line-height: 37px;
 display: flex;
-align-items: center;
-text-align: right;
-
 color: #323232;
+}
+
+li{
+    display: flex;
+    text-decoration: none;
+    text-align: right;
 }
